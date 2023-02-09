@@ -3,7 +3,7 @@
 ## Topics Covered
 
 - [X] Intro to Machine Learning
-- [ ] Machine Learning for Regression
+- [X] Machine Learning for Regression
 - [ ] Machine Learning for Classification
 - [ ] Evaluation Metrics for Classification
 - [ ] Delpying Machine Learning Models
