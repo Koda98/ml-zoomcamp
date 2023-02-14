@@ -4,7 +4,7 @@
 
 - [X] Intro to Machine Learning
 - [X] Machine Learning for Regression
-- [ ] Machine Learning for Classification
+- [X] Machine Learning for Classification
 - [ ] Evaluation Metrics for Classification
 - [ ] Delpying Machine Learning Models
 - [ ] Decision Trees and Ensemble Learning
