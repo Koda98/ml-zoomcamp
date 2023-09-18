@@ -1,13 +1,1 @@
-# Machine Learning Engineering Zoomcamp 2022
-
-## Topics Covered
-
-- [X] Intro to Machine Learning
-- [X] Machine Learning for Regression
-- [X] Machine Learning for Classification
-- [X] Evaluation Metrics for Classification
-- [ ] Delpying Machine Learning Models
-- [ ] Decision Trees and Ensemble Learning
-- [ ] Neural Networks and Deep Learning
-- [ ] Serverless Deep Learning
-- [ ] Kubernetes and TensorFlow Serving
+# Machine Learning Zoomcamp 2023
