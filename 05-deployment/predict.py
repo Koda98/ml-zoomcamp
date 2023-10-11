@@ -1,4 +1,8 @@
 import pickle
+from flask import Flask, request, jsonify
+
+
+app = Flask('credit')
 
 
 def load_files(model_file, dv_file):
@@ -8,17 +12,24 @@ def load_files(model_file, dv_file):
     return model, dv
 
 
-def predict(client, model, dv):
+@app.route('/predict', methods=['POST'])
+def predict():
+    model_file = "model2.bin"
+    dv_file = "dv.bin"
+    client = request.get_json()
+
+    model, dv= load_files(model_file, dv_file)
     X = dv.transform(client)
-    y_pred = model.predict_proba(X)[0, 1]
-    return y_pred
+    credit_prob = model.predict_proba(X)[0, 1]
+
+    result = {'credit_probability': float(credit_prob)}
+    return jsonify(result)
+
+
+@app.route('/', methods=['GET'])
+def index():
+    return "Hello World"
 
 
 if __name__ == "__main__":
-    model_file = "model1.bin"
-    dv_file = "dv.bin"
-    client = {"job": "retired", "duration": 445, "poutcome": "success"}
-
-    model, dv= load_files(model_file, dv_file)
-    credit_prob = predict(client, model, dv)
-    print(credit_prob)
+    app.run(debug=True, host='0.0.0.0', port=9696)

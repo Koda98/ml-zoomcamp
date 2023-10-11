@@ -4,7 +4,7 @@
 - [X] Machine Learning for Regression
 - [X] Machine Learning for Classification
 - [X] Evaluation Metrics for Classification
-- [ ] Deploying Machine Learning Models
+- [X] Deploying Machine Learning Models
 - [ ] Decision Trees and Ensemble Learning
 - [ ] Neural Networks and Deep Learning
 - [ ] Serverless Deep Learning
