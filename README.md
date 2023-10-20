@@ -5,7 +5,7 @@
 - [X] Machine Learning for Classification
 - [X] Evaluation Metrics for Classification
 - [X] Deploying Machine Learning Models
-- [ ] Decision Trees and Ensemble Learning
+- [X] Decision Trees and Ensemble Learning
 - [ ] Neural Networks and Deep Learning
 - [ ] Serverless Deep Learning
 - [ ] Kubernetes and TensorFlow Serving
