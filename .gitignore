@@ -5,3 +5,4 @@ __pycache__/
 .vscode/
 08-deep-learning/data.zip
 08-deep-learning/data/
+09-serverless/bees-wasps.*
