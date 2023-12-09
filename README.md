@@ -7,5 +7,5 @@
 - [X] Deploying Machine Learning Models
 - [X] Decision Trees and Ensemble Learning
 - [x] Neural Networks and Deep Learning
-- [ ] Serverless Deep Learning
-- [ ] Kubernetes and TensorFlow Serving
+- [x] Serverless Deep Learning
+- [x] Kubernetes and TensorFlow Serving
