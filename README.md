@@ -1,4 +1,4 @@
-# Machine Learning Zoomcamp 2023
+# Machine Learning Zoomcamp
 
 - [X] Intro to Machine Learning
 - [X] Machine Learning for Regression
