@@ -131,3 +131,41 @@ So what's the size of this base image?
 * 330 MB
 
 You can get this information when running `docker images` - it'll be in the "SIZE" column.
+
+## Dockerfile
+
+Now create your own Dockerfile based on the image we prepared.
+
+It should start like that:
+
+```docker
+FROM svizor/zoomcamp-model:3.11.5-slim
+# add your stuff here
+```
+
+Now complete it:
+
+* Install all the dependencies form the Pipenv file
+* Copy your Flask script
+* Run it with Gunicorn
+
+After that, you can build your docker image.
+
+## Question 6
+
+Let's run your docker container!
+
+After running it, score this client once again:
+
+```python
+url = "YOUR_URL"
+client = {"job": "management", "duration": 400, "poutcome": "success"}
+requests.post(url, json=client).json()
+```
+
+What's the probability that this client will get a subscription now?
+
+* 0.287
+* 0.530
+* 0.757
+* 0.960
