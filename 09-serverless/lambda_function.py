@@ -1,4 +1,4 @@
-import tflite_runtime.interpreter as tflite
+import tflite_runtime.interpreter as tflite # type: ignore
 import numpy as np
 
 from io import BytesIO
